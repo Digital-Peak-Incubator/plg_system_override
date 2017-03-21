@@ -8,8 +8,10 @@
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
 	<version>3.0.0</version>
-	<description>PLG_SYSTEM_REDIRECT_XML_DESCRIPTION</description>
+	<description>PLG_SYSTEM_OVERRIDE_XML_DESCRIPTION</description>
 	<files>
 		<filename plugin="override">override.php</filename>
+		<filename>NoneNsListModel.php</filename>
+		<filename>NsListModel.php</filename>
 	</files>
 </extension>
