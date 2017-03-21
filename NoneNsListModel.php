@@ -170,7 +170,7 @@ class JModelList extends Model
 	 */
 	public function getItems()
 	{
-		\JFactory::getApplication()->enqueueMessage('Override called in none namespaced class!!');
+		\JFactory::getApplication()->enqueueMessage('Override called in NONE namespaced class!!');
 
 		// Get a storage key.
 		$store = $this->getStoreId();

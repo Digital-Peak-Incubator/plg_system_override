@@ -8,10 +8,34 @@
 	<authorEmail>admin@joomla.org</authorEmail>
 	<authorUrl>www.joomla.org</authorUrl>
 	<version>3.0.0</version>
-	<description>PLG_SYSTEM_OVERRIDE_XML_DESCRIPTION</description>
+	<description>Override namespaced and none namespaced list model class.</description>
 	<files>
 		<filename plugin="override">override.php</filename>
 		<filename>NoneNsListModel.php</filename>
 		<filename>NsListModel.php</filename>
 	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+						name="nns"
+						type="radio"
+						label="Override JModelList"
+						default="1"
+				>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+				<field
+						name="ns"
+						type="radio"
+						label="Override Joomla\CMS\Model\ListModel"
+						default="1"
+				>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
 </extension>
