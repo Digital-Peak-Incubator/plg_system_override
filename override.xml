@@ -21,6 +21,7 @@
 						name="nns"
 						type="radio"
 						label="Override JModelList"
+						class="btn-group btn-group-yesno"
 						default="1"
 				>
 					<option value="1">JYES</option>
@@ -30,6 +31,7 @@
 						name="ns"
 						type="radio"
 						label="Override Joomla\CMS\Model\ListModel"
+						class="btn-group btn-group-yesno"
 						default="1"
 				>
 					<option value="1">JYES</option>
