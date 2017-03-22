@@ -172,7 +172,7 @@ class ListModel extends Model
 	 */
 	public function getItems()
 	{
-		\JFactory::getApplication()->enqueueMessage('Override called in namespaced class!!', 'warning');
+		\JFactory::getApplication()->enqueueMessage('Override called in namespaced class from ' . get_class($this) . '!!', 'warning');
 		// Get a storage key.
 		$store = $this->getStoreId();
 
